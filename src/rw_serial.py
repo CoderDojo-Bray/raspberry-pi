@@ -12,7 +12,7 @@ serialport = serial.Serial("/dev/ttyAMA0", 9600, timeout=0.5)  # opens port - ch
 time.sleep(2)   # short pause in case arduino reboots on serial port opening, value can be changed or line removed
 serialport.write("STRING TO SEND TO SERIAL PORT")    # write string/data, to serial - change value as required
 response = serialport.readlines(None)   # reads from serial port
-print response    # outputs data received from serial port
+print(response)    # outputs data received from serial port
 
 
 # Notes
