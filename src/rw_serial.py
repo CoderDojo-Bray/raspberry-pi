@@ -1,8 +1,9 @@
 # Simple code snippet to write to & read from RPi serial port
 # CoderDojo Bray April 2013
-# Copyleft Shaun Thorpe 2013
 
-# Requires PySerial API to be installed
+
+# Requires PySerial API which is included in standard Raspbian image
+# If installation required
 # see http://pyserial.sourceforge.net/pyserial.html
 # or try 'sudo apt-get install python-serial' on RPi
 
